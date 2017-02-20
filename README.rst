@@ -103,6 +103,12 @@ Reference
 - http://latex-my.blogspot.co.id/2010/06/cjk-support-in-latex.html
 
 
+TODO
+====
+
+- Upload to PyPI.
+
+
 History
 =======
 
