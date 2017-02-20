@@ -13,12 +13,16 @@ Basic Usage
 XeLaTeX
 -------
 
+``conf.py``
+
 ::
+
+  extensions = [ 'sphinxcontrib.cjk' ]
 
   LATEX_PREAMBLE = r'''
   \usepackage{xeCJK}
-  \setCJKmainfont{MS Mincho} % for \rmfamily
-  \setCJKsansfont{MS Gothic} % for \sffamily
+  \setCJKmainfont{MS Mincho}
+  \setCJKsansfont{MS Gothic}
   '''
 
   latex_elements = {
@@ -44,7 +48,11 @@ Generate pdf:
 PdfLaTeX
 --------
 
+``conf.py``
+
 ::
+
+  extensions = [ 'sphinxcontrib.cjk' ]
 
   latex_elements = {
       ...
