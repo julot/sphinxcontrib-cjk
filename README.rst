@@ -51,7 +51,7 @@ PdfLaTeX
       ...
   }
 
-  Somewhere in the document:
+Somewhere in the document:
 
   :cjk:`漢字`
 
