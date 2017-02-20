@@ -73,12 +73,12 @@ Available value for font:
 - goth (ゴシック Gothic)
 - maru (丸ゴシック Maru Gothic)
 
-- simsun.ttc 宋体 (song, default)
-- simfant.ttf 仿宋 (fs)
-- simkai.ttf 楷书 (kai)
-- simhei.ttf 黑体 (hei)
-- simli.ttf 隶书 (li)
-- simyou.ttf 幼圆 (you)
+- song (宋体, simsun.ttc, default)
+- fs (仿宋, simfant.ttf)
+- kai (楷书, simkai.ttf)
+- hei (黑体, simhei.ttf)
+- li (隶书, simli.ttf)
+- you (幼圆, simyou.ttf)
 
 Example:
 
