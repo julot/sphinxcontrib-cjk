@@ -53,6 +53,8 @@ PdfLaTeX
 
 Somewhere in the document:
 
+::
+  
   :cjk:`漢字`
 
   or
