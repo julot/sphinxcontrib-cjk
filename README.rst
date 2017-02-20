@@ -2,7 +2,8 @@
 sphinxcontrib.cjk
 #################
 
-This module adds kanji character for latex.
+This module adds kanji (Chinese and Japanese) and hangul (Korean) character
+for latex.
 
 
 Basic Usage
@@ -54,7 +55,7 @@ PdfLaTeX
 Somewhere in the document:
 
 ::
-  
+
   :cjk:`漢字`
 
   or
