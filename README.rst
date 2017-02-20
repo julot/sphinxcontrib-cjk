@@ -13,7 +13,7 @@ Basic Usage
 XeLaTeX
 -------
 
-``conf.py``
+In ``conf.py``:
 
 ::
 
@@ -48,7 +48,7 @@ Generate pdf:
 PdfLaTeX
 --------
 
-``conf.py``
+In ``conf.py``:
 
 ::
 
