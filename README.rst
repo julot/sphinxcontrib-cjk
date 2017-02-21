@@ -3,21 +3,21 @@ sphinxcontrib.cjk
 #################
 
 This module adds kanji (Chinese and Japanese) and hangul (Korean) character
-for latex.
+support in latex.
 
 
 Basic Usage
 ===========
 
 
-XeLaTeX
--------
+Using XeLaTeX
+-------------
 
 In ``conf.py``:
 
 ::
 
-  extensions = [ 'sphinxcontrib.cjk' ]
+  extensions = ['sphinxcontrib.cjk']
 
   LATEX_PREAMBLE = r'''
   \usepackage{xeCJK}
@@ -45,14 +45,14 @@ Generate pdf:
   > xelatex doc.tex
 
 
-PdfLaTeX
---------
+Using PdfLaTeX
+--------------
 
 In ``conf.py``:
 
 ::
 
-  extensions = [ 'sphinxcontrib.cjk' ]
+  extensions = ['sphinxcontrib.cjk']
 
   latex_elements = {
       ...
@@ -66,9 +66,11 @@ Somewhere in the document:
 
   :cjk:`漢字`
 
-  or
+or specify the font to use:
 
-  :cjk:`漢字 <font>`
+::
+
+  :cjk:`漢字 <min>`
 
 Available value for font:
 
@@ -76,11 +78,9 @@ Available value for font:
 - gkai (简体楷体, simplified Chinese )
 - bsmi (繁体细上海宋体, traditional Chinese)
 - bkai (繁体标楷体, traditional Chinese)
-
 - min (明朝 Mincho)
 - goth (ゴシック Gothic)
 - maru (丸ゴシック Maru Gothic)
-
 - song (宋体, simsun.ttc, default)
 - fs (仿宋, simfant.ttf)
 - kai (楷书, simkai.ttf)
@@ -111,10 +111,15 @@ Reference
 - http://latex-my.blogspot.co.id/2010/06/cjk-support-in-latex.html
 
 
-TODO
-====
+Disclaimer
+==========
 
-- Upload to PyPI.
+I only test this module in the following condition:
+
+- Windows 10 x64
+- Document encoding in UTF-8
+- Kanji only
+- Generate PDF using `MiKTeX <https://miktex.org/>`__
 
 
 History
