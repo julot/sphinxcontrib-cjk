@@ -9,6 +9,12 @@ support in latex.
 Basic Usage
 ===========
 
+Installation:
+
+::
+
+  > pip install sphinxcontrib-cjk
+
 
 Using XeLaTeX
 -------------
@@ -66,13 +72,13 @@ Somewhere in the document:
 
   :cjk:`漢字`
 
-or specify the font to use:
+or specify the style to use:
 
 ::
 
   :cjk:`漢字 <min>`
 
-Available value for font:
+Available value for style:
 
 - gbsn (简体宋体, simplified Chinese)
 - gkai (简体楷体, simplified Chinese )
