@@ -10,6 +10,17 @@ with open('README.rst', 'r', encoding='utf8') as f:
 
 requires = ['Sphinx>=0.6']
 
+keywords = [
+    'sphinx',
+    'sphinxcontrib',
+    'cjk',
+    'chinese',
+    'japanese',
+    'korean',
+    'kanji',
+    'hangul',
+]
+
 setup(
     name='sphinxcontrib-cjk',
     version='0.1',
@@ -19,6 +30,7 @@ setup(
     author_email='julot@gmail.com',
     description=description,
     long_description=long_description,
+    keywords=' '.join(keywords),
     zip_safe=False,
     classifiers=[
         'Development Status :: 3 - Alpha',
