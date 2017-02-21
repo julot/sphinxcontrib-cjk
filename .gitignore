@@ -1,0 +1,5 @@
+.venv
+build
+dist
+sphinxcontrib_cjk.egg-info
+*.pyc
