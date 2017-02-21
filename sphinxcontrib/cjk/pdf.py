@@ -7,13 +7,12 @@ class CnJpKr(nodes.General, nodes.Element):
 
 
 def on_visit_html(self, node):
-    self.body.append('<span>')
     self.body.append(node['text'])
 
 
 def on_depart_html(self, node):
+    _ = self
     _ = node
-    self.body.append('</span>')
 
 
 def on_visit_latex(self, node):
