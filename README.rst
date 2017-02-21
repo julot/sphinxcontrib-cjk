@@ -111,7 +111,7 @@ Generate pdf:
 
 
 Reference
----------
+=========
 
 - http://tex.stackexchange.com/questions/15516/how-to-write-japanese-with-latex
 - http://latex-my.blogspot.co.id/2010/06/cjk-support-in-latex.html
