@@ -5,6 +5,12 @@ sphinxcontrib.cjk
 This module adds kanji (Chinese and Japanese) and hangul (Korean) character
 support in latex.
 
+.. important::
+
+  You don't need this extension at all.
+  
+  Just specify the preamble used in XeLaTeX below and compile it.
+  
 
 Basic Usage
 ===========
